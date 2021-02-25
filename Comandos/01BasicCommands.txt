@@ -1,0 +1,44 @@
+as soon as a repository is started, make the settings.
+Assim que um repositório for iniciado, fazer as configurações
+git config user.name "Nome"
+git config user.email "email"
+
+Para adicionar vários arquivos de uma vez.
+To add multiple files at once.
+git add .
+
+If you use the command "git log" and you have a lot of logs press "/" to search a "commit", "B" to go back and "Q" to leave.
+Caso use o comando git log e tiverem muitos logs aperte / para pesquisar um commit, b para voltar e Q para sair
+git log
+
+Para aparecer todas as paginas, para voltar a configuração anterior digite less no final
+to appear all pages. And to return to the previous configuration type "less" at the end.
+git config core.pager 
+
+buscar todas as informações resumidas.
+search all summary information
+git log --oneline
+
+Buscar por data anterior ou depois
+search by date before or after
+git log --before="2020-12-11"
+
+buscar por dias atrás
+Exemple: search by since two days ago
+git log --since="2 days ago"
+
+buscar por autor
+search by author
+git log --author="Natã"
+
+buscar por todos os comandos
+search by all commands
+git help log
+
+Este comando navega através da chave hash
+This command navigates through the hash key
+git checkout 49c3f74
+
+Navega para o commit principal
+Navigates to the main commit
+git checkout master
