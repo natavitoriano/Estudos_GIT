@@ -1,0 +1,53 @@
+git Command to check existing branches. "*" indicates which branch we are on, and the thread color is green.
+git branch
+
+Create a new branch
+git branch functionalityA
+
+Switch to another branch
+git checkout functionalityA 
+
+To delete branch
+git branch -d functionalityA 
+
+To merge
+git merge functionalityB
+
+This command create branch if it doesn't exist and changes to it.
+git checkout -b functionalityC
+
+
+This command is similiar to merge, it joins files from the base (Where the branch was created).
+git rebase functionalityC
+
+This command is used to clone a repository
+git clone ../secao04 .
+
+This command is used to merge repositories
+Note: push works only when it is a bare repository
+git push
+
+download the files
+git fetch
+and then to adding new files
+git rebase
+
+This command has the same behavior as the top two in just one
+git pull
+
+For create bare repository
+git init --bare
+
+Tags are created for release versions, or agile development where parts of the software are delivered separately
+git tag name
+
+this command is used to see which tags exist
+git tag
+
+To send tag to the remote bash repository
+git push origin v1.0
+
+With the command "git checkout" it is possible to browse the versions of the project
+
+To created a new branch in a tag version
+git switch -c correcoes-v1.0
