@@ -1,0 +1,15 @@
+This command returns all changes made to the project. The command plus the file name, change only the selected file
+git checkout -- .
+
+
+This command returns all changes made to the design of files already added
+git checkout HEAD -- .
+
+This command returns changes the last commit, created a new commit
+git revert <key commit>
+
+Delete the last commit, the number tells how many commits will be deleted
+git reset HEAD~1
+
+create a new branch to check pull request. Three is the number pull request 
+git fetch origin pull/3/head:correcao
