@@ -1,0 +1,40 @@
+Renomear arquivo
+Rename file
+git mv programa1.html programa3.html
+
+Remover arquivo
+Remove file
+git rm maisum.txt
+
+
+Compara o que está pronto para ser commitado com o commit anterior
+Compare what is ready to be committed with the previous commit
+git diff --staged
+
+Diferença entre o commit atual e o anterior
+Difference between current and previous commit
+git diff d806fc1
+
+Diferença entre dois commits selecionados
+Difference between two selected commits 
+git diff 2e4cd90..fd49282
+
+Edite a mensagem do último commit
+Edit the last commit message
+git commit --amend -m "adding a net line"
+
+Atualização necessária do projeto com a criação do novo arquivo
+Necessary update of the project with the creation of the new file
+git commit --amend -m "Necessary update of the project with the creation of the new file"
+
+This command is used to get the file out of the staged
+git restore --staged programa6.html
+
+Return the file to the current commit state
+git checkout programa3.html
+
+Discard changes and return files of the staged to the last commit.
+git reset HEAD --hard
+
+Discard changes of the last commit and return to previous.
+git reset HEAD^ --hard
